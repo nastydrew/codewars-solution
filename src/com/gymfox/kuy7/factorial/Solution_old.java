@@ -1,6 +1,6 @@
 package com.gymfox.kuy7.factorial;
 
-public class Solution {
+public class Solution_old {
     public int factorial(int n) throws IllegalArgumentException {
         if ( n < 0 || n > 12 ) {
             throw new IllegalArgumentException();

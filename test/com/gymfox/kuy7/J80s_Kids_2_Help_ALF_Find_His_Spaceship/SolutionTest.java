@@ -16,7 +16,21 @@ public class SolutionTest {
         assertEquals("[1, 0]", Solution.findSpaceship("..\n.X"));
         assertEquals("[0, 1]", Solution.findSpaceship("X.\n.."));
         assertEquals("[1, 1]", Solution.findSpaceship(".X\n.."));
-        assertEquals("Spaceship lost forever.", Solution.findSpaceship("..\n.."));
+        assertEquals("Spaceship lost forever.", SolutionNew.findSpaceship("..\n.."));
+    }
+
+    @Test
+    public void test1x1Map1() {
+        assertEquals("[0, 0]", Solution.findSpaceship("X"));
+    }
+
+    @Test
+    public void test2x2Map2() {
+        assertEquals("[0, 0]", Solution.findSpaceship("..\nX."));
+        assertEquals("[1, 0]", Solution.findSpaceship("..\n.X"));
+        assertEquals("[0, 1]", Solution.findSpaceship("X.\n.."));
+        assertEquals("[1, 1]", Solution.findSpaceship(".X\n.."));
+        assertEquals("Spaceship lost forever.", SolutionNew.findSpaceship("..\n.."));
     }
 
     // Good luck!
