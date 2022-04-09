@@ -11,5 +11,6 @@ public class lab {
         LocalDate dateNow = LocalDate.now();
 
         System.out.println(String.format("Date is now: %s.\nCurrent date was after my birthday? - %b\nCurrent date was before my birthday? - %b", dateNow, dateNow.isAfter(myBirthday), dateNow.isBefore(myBirthday)));
+        System.out.println("Added new line");
     }
 }
