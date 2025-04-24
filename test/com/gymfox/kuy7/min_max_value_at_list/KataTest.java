@@ -1,5 +1,6 @@
-package com.gymfox.kuy7;
+package com.gymfox.kuy7.min_max_value_at_list;
 
+import com.gymfox.kuy7.min_max_value_at_list.Kata;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
